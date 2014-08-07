@@ -1,8 +1,8 @@
 <?php
 
-namespace CliProcessManager\Controller\Service;
+namespace ImageManager\Mapper\Service;
 
-use CliProcessManager\Controller\ImageMapper;
+use ImageManager\Mapper\ImageMapper;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 

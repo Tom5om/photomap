@@ -13,6 +13,9 @@ class ConsoleControllerFactory implements FactoryInterface
     {
         $service = new ConsoleController();
 
+        $imageMapper = $serviceLocator->getServiceLocator()->get('ImageManager\Mapper\ImageMapper');
+        $service->setImageMapper($imageMapper);
+
         return $service;
     }
 }
